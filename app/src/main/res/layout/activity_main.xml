@@ -5,41 +5,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
+    android:layout_margin="10dp"
     android:gravity="center"
     android:orientation="vertical"
-    android:layout_margin="10dp"
     tools:context=".MainActivity">
 
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_margin="5dp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/loading"
-        android:layout_margin="5dp"/>
+        app:lottie_rawRes="@raw/loading" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_margin="5dp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/loading_one"
-        android:layout_margin="5dp"/>
+        app:lottie_rawRes="@raw/loading_one" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_margin="5dp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/loading_search"
-        android:layout_margin="5dp"/>
+        app:lottie_rawRes="@raw/loading_search" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_margin="5dp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/winner"
-        android:layout_margin="5dp"/>
+        app:lottie_rawRes="@raw/winner" />
 
 </LinearLayout>
